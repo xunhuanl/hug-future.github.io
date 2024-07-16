@@ -1,6 +1,7 @@
 ---
 
 title: 关于成立人文地理学留学交流平台HUG Future的倡议
+layout: Post
 
 ---
 
