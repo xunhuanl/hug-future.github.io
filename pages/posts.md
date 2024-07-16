@@ -1,5 +1,5 @@
 ---
 layout: Post
 permalink: /posts
-title: All Posts
+title: 实时信息
 ---
