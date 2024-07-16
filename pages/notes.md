@@ -2,14 +2,11 @@
 layout: Post
 permalink: /notes
 feedformat: card
-title: Portfolio
+title: 大学列表
 ---
 __
 
-This page contains work I've done.
+开设人文地理及相关专业的大学列表
 
-They are divided into three categories:
-
-`#design#`, `#research#` and `#decision support system#`.
 
 __
