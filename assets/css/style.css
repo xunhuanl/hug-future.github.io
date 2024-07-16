@@ -1583,7 +1583,7 @@ a[href^="http"] {
     padding: 5% 10%;
 }
 
-@media screen and (max-width:320px)
+@media screen and (max-width:500px)
 {
     .home-intro {
         padding: 0;
