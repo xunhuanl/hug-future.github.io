@@ -5,8 +5,8 @@ layout: Post
 content-type: static
 ---
 
-
-
+<br>
+<br>
 
 ​​HUG Future工作组现由来自中国、美国、德国、比利时、荷兰等不同地区的7名博士研究生组成，其研究兴趣包括人文地理学领域的各个方向。​ 
 
