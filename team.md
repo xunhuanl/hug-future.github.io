@@ -1,6 +1,6 @@
 ---
 
-团队成员简介​
+title: 团队成员简介​
 layout: Post
 content-type: static
 ---
