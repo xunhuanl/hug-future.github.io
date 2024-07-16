@@ -4,7 +4,7 @@
 
 layout: Post
 permalink: /
-title: Hug Future
+title: HUG Future
 ---
 
 
