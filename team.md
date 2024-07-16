@@ -1,6 +1,6 @@
 ---
 
-title: ​​HUG Future工作组成员简介​
+团队成员简介​
 layout: Post
 content-type: static
 ---
