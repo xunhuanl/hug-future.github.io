@@ -96,7 +96,7 @@
 
             <!-- Homepage Layout-->
             {%- if page.permalink == "/" -%}
-            <div class="column is-10-widescreen  is-10-desktop is-8-tablet is-12-mobile">
+            <div class="column is-10-widescreen  is-10-desktop is-8-tablet is-10-mobile">
                     {%- if site.preferences.homepage.enabled -%}
                             <!--- Show Homepage -->
                             {%- include Homepage.html -%}
@@ -104,7 +104,7 @@
 
                     {%- else -%}
                             <!--- Show Feed Part -->
-                <div class="column is-10-widescreen  is-10-desktop is-8-tablet is-12-mobile">
+                <div class="column is-10-widescreen  is-10-desktop is-8-tablet is-10-mobile">
                             <h5 class="meta-title"><a href="/">← Home</a></h5>
                             <div class="jumbo">{{page.title}}</div>
                             {%- include Content.html -%}
@@ -116,7 +116,7 @@
 
             <!--- Notes Feed Layout-->
             {%- if page.feedformat -%}
-            <div class="column is-10-widescreen  is-10-desktop is-8-tablet is-12-mobile">
+            <div class="column is-10-widescreen  is-10-desktop is-8-tablet is-10-mobile">
                 <h5 class="meta-title"><a href="/">← Home</a></h5>
                     <div class="jumbo">{{page.title}}</div>
                     {%- include Content.html -%}
@@ -125,7 +125,7 @@
 
             <!--- Notes Layout-->
             {%- if page.content-type == "notes" -%}
-            <div class="column is-10-widescreen  is-10-desktop is-8-tablet is-12-mobile">
+            <div class="column is-10-widescreen  is-10-desktop is-8-tablet is-10-mobile">
                     <div class="note-page-section">
                         <div>
                             {%- if site.preferences.homepage.enabled -%}
@@ -154,7 +154,7 @@
 
             <!--- Post Feed Layout-->
             {%- if page.permalink == "/posts" -%}
-            <div class="column is-10-widescreen  is-10-desktop is-8-tablet is-12-mobile">
+            <div class="column is-10-widescreen  is-10-desktop is-8-tablet is-10-mobile">
                 <h5 class="meta-title"><a href="/">← Home</a></h5>
                 <div class="jumbo">{{page.title}}</div>
                     {%- include Content.html -%}
@@ -173,7 +173,7 @@
 
              <!--- Post Layout-->
              {%- if page.content-type == "post"  -%}
-             <div class="column is-10-widescreen  is-10-desktop is-8-tablet is-12-mobile">
+             <div class="column is-10-widescreen  is-10-desktop is-8-tablet is-10-mobile">
                      <div class="note-page-section">
                          <div>
                              {%- if site.preferences.homepage.enabled -%}
@@ -194,7 +194,7 @@
 
             <!--- Static Page Layout-->
             {%- if page.content-type == "static" -%}
-            <div class="column is-10-widescreen  is-10-desktop is-8-tablet is-12-mobile">
+            <div class="column is-10-widescreen  is-10-desktop is-8-tablet is-10-mobile">
                         <div class="jumbo">{{page.title}}</div>
                         {%- include Content.html -%}
                 </div>
