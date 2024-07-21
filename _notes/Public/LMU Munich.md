@@ -50,9 +50,8 @@ Johannes Glückler：空间视角下经济关系的组织与演化
 总体介绍：雷切尔·卡森环境与社会中心 (RCC) 是一个国际研究中心，致力于从丰富的不同学科和国际视角研究环境与社会。RCC 是一家非营利机构，成立于 2009 年，由慕尼黑大学 (Ludwig-Maximilians-Universität München) 和德意志博物馆联合发起，由德国联邦教育和研究部高级研究中心 (Käte Hammer Kolleg) 资助）。此后，RCC 已发展成为由慕尼黑大学美国文化史教席和新设立的环境人文教席领导的永久中心。
 <br><br>
 
-**博士项目：**
+**[博士项目: Environment and Society，环境与社会](https://www.proenviron.carsoncenter.uni-muenchen.de/index.html)**
 
-**项目：[Environment and Society，环境与社会](https://www.proenviron.carsoncenter.uni-muenchen.de/index.html)**
 
 介绍：环境与社会博士课程是为人文、社会科学和自然科学专业的毕业生开设的，他们希望研究有关环境与社会、自然与文化之间的界面问题。该博士项目位于雷切尔·卡森环境与社会中心。博士论文导师包括慕尼黑大学环境人文学科的教员；环境、景观和城市历史；历史; 地理; 美国研究；文学研究、哲学和环境伦理学。
 
@@ -65,9 +64,8 @@ Christof Mauch：历史，生态史。
 Helmuth Trischler：现代史和技术史，国际比较中的知识社会和创新文化；科学、技术和欧洲一体化；运输历史；和环境历史。
 <br><br>
 
-**硕士项目：**
+**[硕士项目: Environment and Society，环境与社会](https://www.environmentmaster.carsoncenter.uni-muenchen.de/index.html)**
 
-**项目：[Environment and Society，环境与社会](https://www.environmentmaster.carsoncenter.uni-muenchen.de/index.html)**
 
 介绍：该项目借鉴了慕尼黑大学雷切尔·卡森环境与社会中心的研究和研究生教学专业知识 ，并融入其开放的国际社区，其尖端课程让学生熟悉关键的主题问题和在环境背景下工作的方法。环境和社会，训练他们批判性地分析和交流挑战或解决方案，并通过实践、基于现场和创造性的学习强调跨学科和跨学科的思考。作为课程作业的一部分，学生积极参与当地城市和乡村环境，并着眼于全球范围内的一系列环境主题和挑战，从气候变化到环境转型、灭绝和保护，再到环境正义、污染和环境问题。健康。
 
