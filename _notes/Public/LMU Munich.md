@@ -25,7 +25,7 @@ Henrike Rau：调查从家庭到全球运动和网络等多个层面（不）可
 Liang Emlyn Yang：长期的气候适应和恢复能力（韧性）。
 
 Johannes Glückler：空间视角下经济关系的组织与演化
-
+<br><br>
 
 **硕士项目：**
 
@@ -50,14 +50,14 @@ Johannes Glückler：空间视角下经济关系的组织与演化
 入学要求：180 ECTS 分相关专业学士学位、德语、能力倾向测试
 
 项目链接：https://www.lmu.de/de/studium/studienangebot/alle-studienfaecher-und-studiengaenge/umweltsysteme-und-nachhaltigkeit-monitoring-modellierung-und-management-master-hauptfach-4490.html
-
+<br><br>
 
 ***相关院系2: Rachel Carson Center for Environment and Society，雷切尔·卡森环境与社会中心***
 
 网页：https://www.carsoncenter.uni-muenchen.de/index.html
 
 总体介绍：雷切尔·卡森环境与社会中心 (RCC) 是一个国际研究中心，致力于从丰富的不同学科和国际视角研究环境与社会。RCC 是一家非营利机构，成立于 2009 年，由慕尼黑大学 (Ludwig-Maximilians-Universität München) 和德意志博物馆联合发起，由德国联邦教育和研究部高级研究中心 (Käte Hammer Kolleg) 资助）。此后，RCC 已发展成为由慕尼黑大学美国文化史教席和新设立的环境人文教席领导的永久中心。
-
+<br><br>
 
 **博士项目：**
 
@@ -74,7 +74,7 @@ Sonja Dümpelmann：十九世纪和二十世纪城市景观和环境，把与建
 Christof Mauch：历史，生态史。
 
 Helmuth Trischler：现代史和技术史，国际比较中的知识社会和创新文化；科学、技术和欧洲一体化；运输历史；和环境历史。
-
+<br><br>
 
 **硕士项目：**
 
