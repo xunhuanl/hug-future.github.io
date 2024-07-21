@@ -14,7 +14,6 @@ content-type: static
             margin: 20px auto 0;
             text-align: center; /* Center align text */
         }
-
         .member-box img {
             width: 150px; /* Fixed width for the image */
             height: 150px; /* Fixed height for the image */
@@ -23,21 +22,20 @@ content-type: static
             
             margin-right: 10px; /* Space between image and text */
         }
-
         .member-box p {
             margin: 0; /* Remove default margin */
         }
-
         /* Media queries for smaller screens */
         @media (max-width: 991px) {
             .member-box {
                 flex-direction: column; /* Change to column for narrower screens */
+                width: 500px;
                 width: 300px;
                 text-align: center; /* Center align text */
             }
             .member-box img {
                 width: 100%;
-                height: 300px; /* Adjust height to maintain aspect ratio */
+                height: auto; /* Adjust height to maintain aspect ratio */
                 margin-right: 0; /* Remove right margin */
                 margin-bottom: 10px; /* Add space between image and text */
             }
