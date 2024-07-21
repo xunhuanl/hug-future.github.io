@@ -8,12 +8,10 @@ date : 02-01-2024
 '加利福尼亚，美国'
 
 ## 相关院系
-**名称：** 地理系  
-**网页：** [地理系主页](https://geography.berkeley.edu/)  
+**名称：**  [地理系](https://geography.berkeley.edu/)  
 **总体介绍：** 伯克利地理学已有超过一个世纪的历史，是研究地球景观和人类与环境关系的领先学术中心。伯克利地理有五个主要研究领域：关键环境、地球系统科学、地理空间表征、政治经济学和种族地理学。  
-**博士相关信息链接：** [博士研究信息](https://geography.berkeley.edu/academics/graduate-studies)
 
-### 相关博士项目
+### [相关博士项目](https://geography.berkeley.edu/academics/graduate-studies)
 
 #### 项目1
 
