@@ -1,43 +1,37 @@
 .member-box {
     display: flex;
-    flex-direction: column; /* Default to column for narrow screens */
+    flex-direction: row; /* Default to row for wider screens */
     align-items: center;
-    width: 100px;
+    justify-content: flex-start;
+    width: auto;
     margin: 20px auto 0;
     text-align: center; /* Center align text */
 }
 
 .member-box img {
-    width: 100%;
-    height: auto; /* Adjust height to maintain aspect ratio */
+    width: 50px; /* Fixed width for the image */
+    height: 50px; /* Fixed height for the image */
     object-fit: cover;
     overflow: hidden;
     border-radius: 50%;
+    margin-right: 10px; /* Space between image and text */
 }
 
-@media (min-width: 576px) {
+.member-box p {
+    margin: 0; /* Remove default margin */
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 991px) {
     .member-box {
-        width: 120px;
+        flex-direction: column; /* Change to column for narrower screens */
+        width: 100px;
+        text-align: center; /* Center align text */
     }
     .member-box img {
         width: 100%;
+        height: auto; /* Adjust height to maintain aspect ratio */
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 10px; /* Add space between image and text */
     }
 }
-
-@media (min-width: 768px) {
-    .member-box {
-        width: 150px;
-    }
-    .member-box img {
-        width: 100%;
-    }
-}
-
-@media (min-width: 992px) {
-    .member-box {
-        flex-direction: row; /* Change to row for wider screens */
-        align-items: center; /* Center items vertically */
-        justify-content: flex-start; /* Align items to start */
-        width: auto; /* Auto width for flexible layout */
-    }
-    .member
