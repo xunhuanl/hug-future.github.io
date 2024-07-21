@@ -6,7 +6,7 @@ date : 01-01-2024
 
 `德国，慕尼黑`
 
-***相关院系1: Department of Geography，地理系(https://www.geographie.uni-muenchen.de/department/fiona_eng/about/index.html)***
+***相关院系1:[Department of Geography，地理系](https://www.geographie.uni-muenchen.de/department/fiona_eng/about/index.html)***
 
 (https://www.geographie.uni-muenchen.de/department/fiona_eng/about/index.html)  
 
