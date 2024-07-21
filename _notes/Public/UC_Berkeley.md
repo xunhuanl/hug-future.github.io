@@ -29,7 +29,7 @@ date : 02-01-2024
 ***
 
 ### 主要教授与研究方向
-<font style="color:blue">
+<font style="background:blue">
 
 **Tianna Bruno:** 环境正义、黑人环境地理学、关键物理地理学、政治生态学、黑人空间与生态关系、树木年轮学、环境记录。
 
