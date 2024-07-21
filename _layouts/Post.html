@@ -96,7 +96,7 @@
 
             <!-- Homepage Layout-->
             {%- if page.permalink == "/" -%}
-            <div class="column is-10-widescreen  is-10-desktop is-8-tablet is-12-mobile">
+            <div class="column is-12-widescreen  is-12-desktop is-10-tablet is-12-mobile">
                     {%- if site.preferences.homepage.enabled -%}
                             <!--- Show Homepage -->
                             {%- include Homepage.html -%}
@@ -104,7 +104,7 @@
 
                     {%- else -%}
                             <!--- Show Feed Part -->
-                <div class="column is-10-widescreen  is-10-desktop is-8-tablet is-12-mobile">
+                <div class="column is-12-widescreen  is-12-desktop is-10-tablet is-12-mobile">
                             <h5 class="meta-title"><a href="/">← Home</a></h5>
                             <div class="jumbo">{{page.title}}</div>
                             {%- include Content.html -%}
