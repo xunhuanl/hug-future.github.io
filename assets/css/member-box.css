@@ -40,12 +40,4 @@
         justify-content: flex-start; /* Align items to start */
         width: auto; /* Auto width for flexible layout */
     }
-    .member-box img {
-        width: 50px; /* Fixed width for the image */
-        height: 50px; /* Fixed height for the image */
-        margin-right: 10px; /* Space between image and text */
-    }
-    .member-box p {
-        margin: 0; /* Remove default margin */
-    }
-}
+    .member
