@@ -8,29 +8,27 @@ content-type: static
         .member-box {
             display: flex;
             flex-direction: row; /* Default to row for wider screens */
-            align-items: center;
+            
             justify-content: flex-start;
             width: auto;
             margin: 20px auto 0;
             text-align: center; /* Center align text */
         }
+
         .member-box img {
             width: 150px; /* Fixed width for the image */
             height: 150px; /* Fixed height for the image */
             object-fit: cover;
             overflow: hidden;
-            
+
             margin-right: 10px; /* Space between image and text */
         }
-        .member-box p {
-            margin: 0; /* Remove default margin */
-        }
-        /* Media queries for smaller screens */
+
+
         @media (max-width: 991px) {
             .member-box {
                 flex-direction: column; /* Change to column for narrower screens */
-                
-                width: 300px;
+                width: 500px;
                 text-align: center; /* Center align text */
             }
             .member-box img {
@@ -66,7 +64,6 @@ HUG Future工作组现由来自中国、美国、德国、比利时、荷兰以�
         </div>
         </div>
         <div style="width:83%;float:right;vertical-align: middle;text-align:left">
-                @media (max-width: 991px) {<br><br><br><br><br><br><br>}
           <h4>李寻欢</h4>
          <p style="text-align:justify;font-size:15px;line-height:120%">
          HUG Future倡议发起者，美国纽约州立大学布法罗分校地理学博士研究生，研究兴趣为政治经济学和政治生态学框架下的减贫与环境治理。
