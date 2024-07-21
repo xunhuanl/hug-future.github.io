@@ -45,6 +45,55 @@ content-type: static
     }
 }
     </style>
+<style>
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    max-width: 1000px; /* 可以根据需要调整 */
+    margin: 0 auto; /* 居中对齐 */
+}
+
+.team-container .team-member {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 48%; /* 每列占宽度的一半 */
+    margin-bottom: 20px; /* 每个成员之间的间距 */
+}
+
+.member-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px; /* 照片与文字之间的间距 */
+}
+
+.member-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.member-info p {
+    margin: 5px 0;
+}
+
+/* 当屏幕宽度小于600px时，调整布局 */
+@media (max-width: 600px) {
+    .team-container .team-member {
+        flex-direction: column;
+        align-items: center;
+        width: 100%; /* 单列 */
+        text-align: center; /* 文字居中对齐 */
+    }
+
+    .member-photo {
+        margin-right: 0;
+        margin-bottom: 10px; /* 照片与文字之间的间距 */
+    }
+}
+</style>
 <br>
 <br>
 <h2>核心工作组</h2>
@@ -123,4 +172,25 @@ HUG Future工作组现由来自中国、美国、德国、比利时、荷兰以�
             <p><a href="https://research-information.bris.ac.uk/en/persons/genghao-zhang" target="_blank">More >></a></p>
         </div>
     </div>
+
+<h2>志愿者</h2>
+<div class="team-container">
+    <div class="team-member">
+        <img src="./assets/img/members/Foto1.jpg" class="member-photo" alt="Member Photo">
+        <div class="member-info">
+            <p>Name: John Doe</p>
+            <p>Position: Developer</p>
+            <p>Bio: Some bio here.</p>
+        </div>
+    </div>
+    <div class="team-member">
+        <img src="./assets/img/members/Foto8.jpg" class="member-photo" alt="Member Photo">
+        <div class="member-info">
+            <p>Name: Jane Doe</p>
+            <p>Position: Designer</p>
+            <p>Bio: Some bio here.</p>
+        </div>
+    </div>
+    <!-- 更多成员 -->
+</div>
 
