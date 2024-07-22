@@ -1,116 +1,409 @@
 <img src="./assets/img/wordcloud_hugfuture.png" alt="Description of Image" style="width: 100%; height: auto; display: block;">
 
-<video controls>
-        <source src="wordcloud_hugfuture.mp4" type="video/mp4">
-    </video>
 
-
-<div class="简介">
-      <h1>Human Geographers of the Future (HUG Future)</h1>
-          <h1>未来人文地理是</h1>
-    <p>人文地理学青年学者的国际交流平台。</p>
-        <p>我们追求批判的（C）、有趣的（I）、多样的（D）人文地理学。</p>
     
-      <!--<a id="UHI" href="#">Urban Heat Adaptation</a>
-      <a id="rural" href="#">Rural Development and Governance</a>
-      <a id="poverty" href="#">Poverty Alleviation</a>
-      <div class="button-research">
-          <button class="button-UHI">
-              <span class="Urban">Urban Heat Adaptation</span>
-              <span class="Doctoral">Doctoral research</span>
-              <span class="year-urban">2022~</span>
-          </button>
-          <button class="button-Poverty">
-              <span class="poverty">Poverty Alleviation</span>
-              <span class="survey">Survey conductor and consultant</span>
-              <span class="year-survey">2020-2021</span>
-          </button>
-          <button class="button-Rural">
-              <span class="Rural">Rural Development and Governance</span>
-              <span class="Master">Master research</span>
-              <span class="year-rural">2019-2022</span>
-          </button>
-    </div>-->
-        </div> 
+<style>
+        /* Ensure the video takes up the full width of the viewport and is at the top */
+        .video-container {
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .video-container video {
+            width: 100%;
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+
+    <div class="video-container">
+        <video autoplay muted loop>
+            <source src="wordcloud_hugfuture.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    
 
         
-     <!--newest products 111111111111111111111111111111111111111111111111111111111 --> 
-<div class="核心项目">
-     <h1>核心项目</h1>
-     <div class="院校介绍">
-         <div class="action-map-container">
-             <img src="action-map.png" alt="action-map" class="map-image">           
-             <div class="map-overlay">
-                 <a href="xxx">                  
-                     <div class="map-text">院校介绍</div>
-                 </a>           
-             </div>
-         </div>
-         <div class="求职&留学资讯">
-             <a href="xxx"></a>
-                 <img src="infographic_HK heat.png" alt="info" class="info-image">
-                 <div class="info-overlay">
-                     <a href="xxx"> 
-                     <div class="info-text">求职&留学资讯</div>
-                     </a>
-                 </div>
-         </div>
-         <div class="读书会">
-             <img src="publication.png" alt="publication" class="publication-image">
-             <div class="publication-overlay">
-                 <a href="xxx"> 
-                     <div class="publication-text">读书会</div>
-                 </a>
-             </div>
-         </div>
-     </div>
-</div>     
+        <!--intro-->   
+<div class="简介" style="position: relative; left: 10%;">
+    <h1 style="margin-top: 10px; margin-top: 110px;margin-bottom: 0px;">
+        Human Geographers of the Future (HUG Future)<br>
+        未来人文地理
+    </h1>
+    <p style="margin-top: 20px;margin-bottom: 110px;">
+        是由多位海外人文地理学领域的博士研究生成立的青年学者交流平台。<br>
+        HUG Future 是一个国际平台，一个信息枢纽，更是一个知识孵化器。
+    </p>
+</div>
 
 
-    
+
+    <style>
+        /* Center the heading horizontally */
+        .核心项目 h1 {
+            text-align: center;
+            margin-top: 60px; /* Adjust as needed */
+        }
+
+        /* Top border to separate the section */
+        .核心项目 {
+            position: relative;
+            width: 100%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-sizing: border-box; /* Include padding in the width/height */
+            overflow: hidden;
+        }
+
+        .核心项目::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%; /* Line width */
+            height: 1px; /* Thickness of the line */
+            background-color: lightgrey; /* Line color */
+            z-index: 1; /* Ensure it appears above other content */
+        }
+
+        /* Container for the blocks */
+        .blocks-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 100%;
+            max-width: 1200px;
+            margin-top: 20px; /* Adjust margin as needed */
+            box-sizing: border-box; /* Include padding in the width/height */
+            padding: 0 10px; /* Add some padding to avoid touching screen edges */
+        }
+
+        .blocks-container .block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px; /* Margin between blocks */
+            border: 1px solid #ccc; /* Optional border for visibility */
+            border-radius: 8px; /* Optional rounded corners */
+            overflow: hidden; /* Ensure image and text stay within bounds */
+            width: calc(30% - 20px); /* Each block takes up 30% of the container minus margin */
+            height: 500px; /* Set a fixed height for consistency */
+            box-sizing: border-box; /* Include padding/border in the width/height */
+            background-color: transparent; /* Remove background color */
+        }
+
+        /* Style for the images */
+        .blocks-container img {
+            width: 100%;
+            height: 70%; /* Image takes up 70% of the block */
+            object-fit: cover; /* Maintain aspect ratio and cover the entire area */
+        }
+
+        /* Text styling */
+        .blocks-container .map-text, .blocks-container .info-text, .blocks-container .publication-text {
+            background: transparent; /* Remove background */
+            color: black; /* Set text color to black */
+            padding: 10px;
+            text-align: center;
+            height: 30%; /* Text takes up 30% of the block */
+            display: flex;
+            flex-direction: column; /* Stack text vertically */
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            box-sizing: border-box;
+            overflow: hidden; /* Prevent overflow */
+        }
+
+        .blocks-container h1 {
+            font-size: 18px; /* Adjust as needed */
+            margin: 0 0 10px 0; /* Margin below the h1 */
+        }
+
+        .blocks-container p {
+            font-size: 14px; /* Adjust as needed */
+            margin: 0; /* Remove default margin */
+            line-height: 1.5; /* Improve readability */
+        }
+
+        /* Ensure the body doesn't overflow the viewport */
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /* Prevent horizontal scroll */
+        }
+    </style>
+
+    <div class="核心项目">
+        <h1>核心项目</h1>
+        <div class="blocks-container">
+            <div class="block">
+                <img src="./assets/img/college%20map.png" alt="action-map" class="map-image">
+                <div class="map-text">
+                    <h1>院校介绍</h1>
+                    <p>HUG Future收录了全球著名院校的人文地理及交叉领域的研究生学位项目信息，包括学费，导师，优势研究方向等。</p>
+                </div>
+            </div>
+            <div class="block">
+                <img src="./assets/img/job%20info.png" alt="info" class="info-image">
+                <div class="info-text">
+                    <h1>求职&留学资讯</h1>
+                    <p>HUG Future每周更新10条海外教职或硕博招聘的实时信息。点击查看所有收录的招聘信息。</p>
+                </div>
+            </div>
+            <div class="block">
+                <img src="./assets/img/book%20club.jpg" alt="publication" class="publication-image">
+                <div class="publication-text">
+                    <h1>读书会</h1>
+                    <p>HUG Future定期组织感兴趣的同学共同研读专业名著，一期历时4周，每周一次线上讨论会。点击查看往期阅读心得，加入我们一起“啃”掉理论。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<style>
+    /* Container for the team section */
+    .团队 {
+        padding: 20px;
+        box-sizing: border-box; /* Include padding in width/height */
+        background-color: white; /* No background color */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center the content horizontally */
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    /* Style for the main heading */
+    .团队 h1 {
+        margin: 20px 0; /* Margin above and below */
+        color: #333; /* Text color */
+        text-align: left; /* Align heading text to the left */
+        width: 100%; /* Full width of the container */
+        max-width: 1200px; /* Optional: limit width for large screens */
+        padding-left: 20px; /* Optional: padding to the left */
+        box-sizing: border-box; /* Include padding in width/height */
+    }
+
+    /* Style for the paragraph */
+    .团队 p {
+        font-size: 16px; /* Adjust font size as needed */
+        line-height: 1.6; /* Line height for readability */
+        color: #555; /* Text color */
+        margin: 0 0 20px 0; /* Margin below the paragraph */
+        text-align: left; /* Align paragraph text to the left */
+        width: 100%; /* Full width of the container */
+        max-width: 1200px; /* Optional: limit width for large screens */
+        padding-left: 20px; /* Optional: padding to the left */
+        box-sizing: border-box; /* Include padding in width/height */
+    }
+
+    /* Style for the subsection */
+    .成员 {
+        margin-top: 30px; /* Space above the subsection */
+        padding: 10px;
+        display: inline-block; /* Fit content width */
+    }
+
+    /* Style for the subsection heading */
+    .成员 h1 {
+        margin: 0; /* No margin */
+        color: #333; /* Text color */
+        text-align: left; /* Align heading text to the left */
+        width: 100%; /* Full width of the container */
+        max-width: 1200px; /* Optional: limit width for large screens */
+        padding-left: 0px; /* Optional: padding to the left */
+        box-sizing: border-box; /* Include padding in width/height */
+        border-top: 2px solid #ADD8E6;
+    }
+
+    /* Container for team members */
+    .team-members {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+        gap: 5px; /* Smaller space between team members */
+        justify-content: center; /* Center grid items */
+        margin-top: 20px; /* Space above grid */
+        width: 100%; /* Full width of the container */
+        max-width: 1200px; /* Optional: limit width for large screens */
+        box-sizing: border-box; /* Include padding in width/height */
+    }
+
+    /* Style for individual team member */
+    .team-member {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Align content to the left */
+        box-sizing: border-box; /* Include padding in width/height */
+        margin-top: 20px;
+    }
+
+    /* Style for member photo */
+    .team-member img {
+        width: 220px; /* Increased width for square */
+        height: 220px; /* Increased height for square */
+        object-fit: cover; /* Maintain aspect ratio and cover the entire area */
+        margin-bottom: 10px; /* Space below the image */
+    }
+
+    /* Style for member details */
+    .team-member .name {
+        font-size: 25px; /* Increased font size for name */
+        color: #333; /* Text color */
+        margin-top: 5px; /* Space above name */
+        text-align: left; /* Left align text */
+        width: 100%; /* Full width of the container */
+        box-sizing: border-box; /* Include padding in width/height */
+    }
+
+    .team-member .school {
+        font-size: 15px; /* Increased font size for school */
+        color: #555; /* Text color */
+        margin-top: 5px; /* Space above school */
+        text-align: left; /* Left align text */
+        width: 100%; /* Full width of the container */
+        box-sizing: border-box; /* Include padding in width/height */
+    }
+</style>
+
 <div class="团队">
-     <h1>我们的团队是</h1>
-    <p>由几十位致力于促进中西人文地理学对话的青年学者、博士、硕士研究生组成。我们的目标是引领国内外人文地理学的双向交流，促进知识与信息共享。</p>
-     <h1>创始成员</h1>
-     <div class="xx">
-         <div class="action-map-container">
-             <img src="action-map.png" alt="action-map" class="map-image">           
-             <div class="map-overlay">
-                 <a href="xxx">                  
-                     <div class="map-text">xxx</div>
-                 </a>           
-             </div>
-         </div>
-         <div class="xx">
-             <a href="xxx"></a>
-                 <img src="infographic_HK heat.png" alt="info" class="info-image">
-                 <div class="info-overlay">
-                     <a href="xxx"> 
-                     <div class="info-text">xx</div>
-                     </a>
-                 </div>
-         </div>
-         <div class="xx">
-             <img src="publication.png" alt="publication" class="publication-image">
-             <div class="publication-overlay">
-                 <a href="xxx"> 
-                     <div class="publication-text">xx</div>
-                 </a>
-             </div>
-         </div>
-     </div>
-</div> 
+    <h1>我们的团队是</h1>
+    <p>
+        由几十位致力于促进中西人文地理学对话的青年学者、博士、硕士研究生组成。<br>
+        我们的目标是引领国内外人文地理学的双向交流，促进知识与信息共享。
+    </p>
+    <div class="成员">
+        <h1>创始成员</h1>
+    </div>
+    <div class="team-members">
+        <!-- Repeat this block for each team member -->
+        <div class="team-member">
+            <img src="./assets/img/xunhuan.gif" alt="Member 1">
+            <div class="name">李寻欢</div>
+            <div class="school">纽约州立大学布法罗分校</div>
+        </div>
+        <div class="team-member">
+            <img src="./assets/img/xiaofei.gif" alt="Member 2">
+            <div class="name">覃小菲</div>
+            <div class="school">波士顿大学</div>
+        </div>
+        <div class="team-member">
+            <img src="./assets/img/wenkai.gif" alt="Member 3">
+            <div class="name">鲍文楷</div>
+            <div class="school">慕尼黑大学</div>
+        </div>
+        <div class="team-member">
+            <img src="./assets/img/jiayi.gif" alt="Member 4">
+            <div class="name">鲁嘉颐</div>
+            <div class="school">鲁汶大学</div>
+        </div>
+        <div class="team-member">
+            <img src="./assets/img/wenhan.gif" alt="Member 5">
+            <div class="name">冯文翰</div>
+            <div class="school">慕尼黑大学</div>
+        </div>
+        <div class="team-member">
+            <img src="./assets/img/yue.gif" alt="Member 6">
+            <div class="name">郭越</div>
+            <div class="school">中国科学院地理科学与资源研究所</div>
+        </div>
+        <div class="team-member">
+            <img src="./assets/img/hang.gif" alt="Member 7">
+            <div class="name">杨航</div>
+            <div class="school">阿姆斯特丹自由大学</div>
+        </div>
+        <div class="team-member">
+            <img src="./assets/img/genghao.gif" alt="Member 8">
+            <div class="name">张耿豪</div>
+            <div class="school">布里斯托大学</div>
+        </div>
+    </div>
+</div>
 
 
  
 
+<style>
+    /* Style for the bottom section */
+    .底部 {
+        padding: 40px 20px;
+        box-sizing: border-box; /* Include padding in width/height */
+        background-color: #f1f1f1; /* Light grey background color */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end; /* Align the content to the right horizontally */
+        width: 100%; /* Full width of the container */
+    }
+
+    /* Style for the contact us container */
+    .联系我们 {
+        text-align: right; /* Right align the text horizontally */
+        margin-bottom: 20px; /* Space below the header */
+        width: 100%; /* Ensure the container takes full width */
+    }
+
+    /* Style for the contact us heading */
+    .联系我们 h1 {
+        font-size: 24px; /* Adjust font size as needed */
+        margin: 0; /* No margin */
+        color: #333; /* Text color */
+    }
+
+    /* Optional: Style for the contact details */
+    .contact-details {
+        font-size: 16px; /* Adjust font size as needed */
+        line-height: 1.6; /* Line height for readability */
+        color: #555; /* Text color */
+        text-align: right; /* Right align text */
+        width: 100%; /* Full width of the container */
+        max-width: 800px; /* Optional: limit width for large screens */
+        margin: 20px 0; /* Margin above and below */
+    }
+
+    /* Optional: Style for social media icons */
+    .social-media {
+        display: flex;
+        justify-content: flex-end; /* Align the icons to the right */
+        gap: 20px; /* Space between icons */
+        margin-top: 20px; /* Space above the icons */
+        width: 100%; /* Full width of the container */
+    }
+
+    .social-media a {
+        text-decoration: none; /* Remove underline from links */
+        color: #333; /* Icon color */
+        font-size: 24px; /* Adjust icon size as needed */
+    }
+</style>
+
 <div class="底部">
     <div class="联系我们">
         <h1>联系我们</h1>
-        <a href="https://www.linkedin.com/in/xiaofei-qin-07ba4b26b/" id="linkedin"><img alt="LinkedIn logo initials" src="linkedin.svg"></a> 
     </div>
+    <!-- Optional: Add contact details -->
+    <div class="contact-details">
+        <p>xxxx</p>
+    </div>
+    <!-- Optional: Add social media icons -->
+    <div class="social-media">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+</div>
+
+    
+ <!--   
     <div class="全球网站">
         <h1>English</h1>
         <a href="https://www.linkedin.com/in/xiaofei-qin-07ba4b26b/" id="linkedin"><img alt="LinkedIn logo initials" src="linkedin.svg"></a> 
     </div>
 </div>
+        -->
+
