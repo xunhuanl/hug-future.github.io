@@ -8,15 +8,15 @@ date : 02-01-2024
 <head>
     <meta charset="UTF-8">
     <title>英文名，中文名（例如，University of California, Berkeley (UCB)，加利福尼亚大学伯克利分校）</title>
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/HUG-Future/hug-future.github.io/main/assets/css/Template_CSS.css">
-<!--     <style>
+    <link rel="stylesheet" href="/assets/css/Template_CSS.css">
+    <style>
         .project-box {
             border: 2px solid #333; /* 黑色边框 */
             padding: 20px; /* 内边距 */
             margin: 10px 0; /* 外边距 */
             background-color: #f9f9f9; /* 背景颜色 */
         }
-    </style> -->
+    </style>
 </head>
 <body>
     <h1>xxx市/州，国家</h1>
