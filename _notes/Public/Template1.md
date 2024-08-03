@@ -24,7 +24,7 @@ date : 02-01-2024
     <p><strong>介绍：</strong>该学院xxx</p>
     <hr>
   
- <div class="project-box">
+ <div class="assets/css/Template_CSS.css/project-box">
         <h4>🤖1.1.1 <a href="项目网页链接" target="_blank">项目名称</a></h4>
         <p><strong>介绍：</strong>该项目xxx</p>
         <p><strong>学位、学制和学费：</strong>学位xxx</p>
