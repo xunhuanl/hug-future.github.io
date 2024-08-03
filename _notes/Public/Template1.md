@@ -1,3 +1,10 @@
+---
+title : 英文名，中文名（例如，University of California, Berkeley (UCB)，加利福尼亚大学伯克利分校）
+feed: show
+date : 02-01-2024
+---
+
+
 <!DOCTYPE html>
 <html lang="zh">
 <head>
