@@ -1,70 +1,28 @@
-/********************************************************************************************
- * 
- * MIT License
- * 
- * Copyright (c) 2020 Raghuveer S
- * 
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- * 
- * The above copyright notice and this permission notice shall be included in all
- * copies or substantial portions of the Software.
- * 
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- * SOFTWARE.
- * 
- * 
- * File: Search.js
- * Author: Raghuveer S
- * 
- * Preface: I take loads of inspiration from just-the-docs to implement this.
- * This can be easily ported to suit your needs. There is very little project specific stuff
- * in this.
- * 
- * How to customize this for your own project:
- * --------------------------------------------
- * 1. Lunr takes json fields for indexing, so create a json file with all the fields
- *      you want searched by Lunr. For eg. In my case, it is title, content, url for my 
- *      blog posts.
- *      Note: In this project, the json gets automatically generated. (SEE: search-data.json)
- * 2. Change the field names below accordingly. (SEE: this.field)
- * 3. Create a HTML Page with an input box(with id='search-input') and a div beneath it
- *     with id='search-results'. Also, don't forget to embed this script using the script
- *     tag.
- * 4. You are good to go. If you need additional customization you can change the boost 
- *      values, layout, colors etc by tinkering with the correponding parts of the code.
- *********************************************************************************************/
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="https://unpkg.com/lunr-languages/lunr.stemmer.support.js"></script>
+<script src="https://unpkg.com/lunr-languages/tinyseg.js"></script>
+<script src="https://unpkg.com/lunr-languages/lunr.zh.js"></script>
 
- (function (sj) {
+(function (sj) {
     "use strict";
 
     sj.addEvent = function(el, type, handler) {
-      if (el.attachEvent) el.attachEvent('on'+type, handler); else el.addEventListener(type, handler);
+        if (el.attachEvent) el.attachEvent('on'+type, handler); else el.addEventListener(type, handler);
     }
     sj.removeEvent = function(el, type, handler) {
-      if (el.detachEvent) el.detachEvent('on'+type, handler); else el.removeEventListener(type, handler);
+        if (el.detachEvent) el.detachEvent('on'+type, handler); else el.removeEventListener(type, handler);
     }
     sj.onReady = function(ready) {
-      // in case the document is already rendered
-      if (document.readyState!='loading') ready();
-      // modern browsers
-      else if (document.addEventListener) document.addEventListener('DOMContentLoaded', ready);
-      // IE <= 8
-      else document.attachEvent('onreadystatechange', function(){
-          if (document.readyState=='complete') ready();
-      });
+        // in case the document is already rendered
+        if (document.readyState!='loading') ready();
+        // modern browsers
+        else if (document.addEventListener) document.addEventListener('DOMContentLoaded', ready);
+        // IE <= 8
+        else document.attachEvent('onreadystatechange', function(){
+            if (document.readyState=='complete') ready();
+        });
     }
 
-    
     async function getSearchData(dataUrl) {
         let response = await fetch(dataUrl);
         let responseText = response.text();
@@ -76,30 +34,31 @@
 
         getSearchData(dataUrl)
             .then(function(responseText) {
-            var docs = JSON.parse(responseText);
+                var docs = JSON.parse(responseText);
 
-            lunr.tokenizer.separator = /[\s/]+/;
+                lunr.tokenizer.separator = /[\s/]+/;
 
-            var index = lunr(function(){
-                this.ref('id');
-                this.field('title', {boost: 200});
-                this.field('content', {boost: 2});
-                this.field('url');
-                this.metadataWhitelist = ['position']
+                var index = lunr(function(){
+                    this.use(lunr.zh);  // 启用中文语言支持
+                    this.ref('id');
+                    this.field('title', {boost: 200});
+                    this.field('content', {boost: 2});
+                    this.field('url');
+                    this.metadataWhitelist = ['position']
 
-                for (var i in docs) {
-                    this.add({
-                        id: i,
-                        title: docs[i].title,
-                        content: docs[i].content,
-                        url: docs[i].url
-                    });
-                }
+                    for (var i in docs) {
+                        this.add({
+                            id: i,
+                            title: docs[i].title,
+                            content: docs[i].content,
+                            url: docs[i].url
+                        });
+                    }
+                });
+                searchLoaded(index, docs);
+            }).catch(function(err) {
+                console.warn("Error processing the search-data for lunrjs",err);
             });
-            searchLoaded(index, docs);
-        }).catch(function(err) {
-            console.warn("Error processing the search-data for lunrjs",err);
-        });
     }
 
     function searchLoaded(index, docs) {
@@ -142,17 +101,17 @@
 
             var results = index.query(function (query) {
                 var tokens = lunr.tokenizer(input)
-               query.term(tokens, {
-                 boost: 10
-               });
-               query.term(tokens, {
-                 wildcard: lunr.Query.wildcard.TRAILING
-               });
+                query.term(tokens, {
+                    boost: 10
+                });
+                query.term(tokens, {
+                    wildcard: lunr.Query.wildcard.TRAILING
+                });
             });
 
             if ((results.length == 0) && (input.length > 2)) {
                 var tokens = lunr.tokenizer(input).filter(function(token, i){
-                   return token.str.length < 20; 
+                    return token.str.length < 20; 
                 })
 
                 if (tokens.length > 0) {
@@ -458,6 +417,3 @@
         searchInit();
     });
 })(window.sj = window.sj || {});
-
-
-
