@@ -51,7 +51,8 @@ date : 02-01-2024
     <div class="project-box">
         <p><strong>Prof.1：</strong>该教授xxx</p>
         <p><strong>Prof.2：</strong>该教授xxx</p>
-        <p><strong>Prof.3：</strong>该教授xxx</p><div>
+        <p><strong>Prof.3：</strong>该教授xxx</p>
+    <div>
 
     <hr>    
 
