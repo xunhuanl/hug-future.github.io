@@ -3,26 +3,27 @@
 <script src="https://unpkg.com/lunr-languages/tinyseg.js"></script>
 <script src="https://unpkg.com/lunr-languages/lunr.zh.js"></script>
 
-(function (sj) {
+ (function (sj) {
     "use strict";
 
     sj.addEvent = function(el, type, handler) {
-        if (el.attachEvent) el.attachEvent('on'+type, handler); else el.addEventListener(type, handler);
+      if (el.attachEvent) el.attachEvent('on'+type, handler); else el.addEventListener(type, handler);
     }
     sj.removeEvent = function(el, type, handler) {
-        if (el.detachEvent) el.detachEvent('on'+type, handler); else el.removeEventListener(type, handler);
+      if (el.detachEvent) el.detachEvent('on'+type, handler); else el.removeEventListener(type, handler);
     }
     sj.onReady = function(ready) {
-        // in case the document is already rendered
-        if (document.readyState!='loading') ready();
-        // modern browsers
-        else if (document.addEventListener) document.addEventListener('DOMContentLoaded', ready);
-        // IE <= 8
-        else document.attachEvent('onreadystatechange', function(){
-            if (document.readyState=='complete') ready();
-        });
+      // in case the document is already rendered
+      if (document.readyState!='loading') ready();
+      // modern browsers
+      else if (document.addEventListener) document.addEventListener('DOMContentLoaded', ready);
+      // IE <= 8
+      else document.attachEvent('onreadystatechange', function(){
+          if (document.readyState=='complete') ready();
+      });
     }
 
+    
     async function getSearchData(dataUrl) {
         let response = await fetch(dataUrl);
         let responseText = response.text();
@@ -34,31 +35,30 @@
 
         getSearchData(dataUrl)
             .then(function(responseText) {
-                var docs = JSON.parse(responseText);
+            var docs = JSON.parse(responseText);
 
-                lunr.tokenizer.separator = /[\s/]+/;
+            lunr.tokenizer.separator = /[\s/]+/;
 
-                var index = lunr(function(){
-                    this.use(lunr.zh);  // 启用中文语言支持
-                    this.ref('id');
-                    this.field('title', {boost: 200});
-                    this.field('content', {boost: 2});
-                    this.field('url');
-                    this.metadataWhitelist = ['position']
+            var index = lunr(function(){
+                this.ref('id');
+                this.field('title', {boost: 200});
+                this.field('content', {boost: 2});
+                this.field('url');
+                this.metadataWhitelist = ['position']
 
-                    for (var i in docs) {
-                        this.add({
-                            id: i,
-                            title: docs[i].title,
-                            content: docs[i].content,
-                            url: docs[i].url
-                        });
-                    }
-                });
-                searchLoaded(index, docs);
-            }).catch(function(err) {
-                console.warn("Error processing the search-data for lunrjs",err);
+                for (var i in docs) {
+                    this.add({
+                        id: i,
+                        title: docs[i].title,
+                        content: docs[i].content,
+                        url: docs[i].url
+                    });
+                }
             });
+            searchLoaded(index, docs);
+        }).catch(function(err) {
+            console.warn("Error processing the search-data for lunrjs",err);
+        });
     }
 
     function searchLoaded(index, docs) {
@@ -101,17 +101,17 @@
 
             var results = index.query(function (query) {
                 var tokens = lunr.tokenizer(input)
-                query.term(tokens, {
-                    boost: 10
-                });
-                query.term(tokens, {
-                    wildcard: lunr.Query.wildcard.TRAILING
-                });
+               query.term(tokens, {
+                 boost: 10
+               });
+               query.term(tokens, {
+                 wildcard: lunr.Query.wildcard.TRAILING
+               });
             });
 
             if ((results.length == 0) && (input.length > 2)) {
                 var tokens = lunr.tokenizer(input).filter(function(token, i){
-                    return token.str.length < 20; 
+                   return token.str.length < 20; 
                 })
 
                 if (tokens.length > 0) {
