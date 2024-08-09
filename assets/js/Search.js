@@ -1,6 +1,3 @@
-<script src="https://unpkg.com/lunr/lunr.js"></script>
-<script src="https://unpkg.com/lunr-languages/lunr.stemmer.support.js"></script>
-<script src="https://unpkg.com/lunr-languages/tinyseg.js"></script>
 <script src="https://unpkg.com/lunr-languages/lunr.zh.js"></script>
 
  (function (sj) {
