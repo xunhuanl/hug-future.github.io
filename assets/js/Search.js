@@ -1,3 +1,49 @@
+/********************************************************************************************
+ * 
+ * MIT License
+ * 
+ * Copyright (c) 2020 Raghuveer S
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ * 
+ * 
+ * File: Search.js
+ * Author: Raghuveer S
+ * 
+ * Preface: I take loads of inspiration from just-the-docs to implement this.
+ * This can be easily ported to suit your needs. There is very little project specific stuff
+ * in this.
+ * 
+ * How to customize this for your own project:
+ * --------------------------------------------
+ * 1. Lunr takes json fields for indexing, so create a json file with all the fields
+ *      you want searched by Lunr. For eg. In my case, it is title, content, url for my 
+ *      blog posts.
+ *      Note: In this project, the json gets automatically generated. (SEE: search-data.json)
+ * 2. Change the field names below accordingly. (SEE: this.field)
+ * 3. Create a HTML Page with an input box(with id='search-input') and a div beneath it
+ *     with id='search-results'. Also, don't forget to embed this script using the script
+ *     tag.
+ * 4. You are good to go. If you need additional customization you can change the boost 
+ *      values, layout, colors etc by tinkering with the correponding parts of the code.
+ *********************************************************************************************/
+
  (function (sj) {
     "use strict";
 
@@ -35,7 +81,6 @@
             lunr.tokenizer.separator = /[\s/]+/;
 
             var index = lunr(function(){
-                this.use(lunr.zh);
                 this.ref('id');
                 this.field('title', {boost: 200});
                 this.field('content', {boost: 2});
@@ -413,3 +458,5 @@
         searchInit();
     });
 })(window.sj = window.sj || {});
+
+
