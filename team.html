@@ -5,53 +5,12 @@ layout: Post
 content-type: static
 ---
 <style>
-.member-box {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    padding: 10px;
-    max-width: 1000px; /* 可以根据需要调整 */
-    margin: 0 auto; /* 居中对齐 */
-}
-
-.member-photo {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin-right: 20px; /* 照片与文字之间的间距 */
-}
-
-.member-info {
-    display: flex;
-    flex-direction: column;
-}
-
-.member-info p {
-    margin: 5px 0;
-}
-
-/* 当屏幕宽度小于600px时，调整布局 */
-@media (max-width: 600px) {
-    .member-box {
-        flex-direction: column;
-        align-items: center;
-        text-align: center; /* 文字居中对齐 */
-    }
-
-    .member-photo {
-        margin-right: 0;
-        margin-bottom: 10px; /* 照片与文字之间的间距 */
-    }
-}
-    </style>
-<style>
 .team-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 5px;
-    max-width: 1000px; /* 可以根据需要调整 */
+    max-width: 100%; /* 可以根据需要调整 */
     margin: 0 auto; /* 居中对齐 */
 }
 
@@ -101,8 +60,8 @@ content-type: static
 ​​<p style="line-height: 1.6;">
 HUG Future工作组现由来自中国、美国、德国、比利时、荷兰以及英国等不同地区的8名博士研究生组成，其研究兴趣包括人文地理学领域的各个方向。​ 
  <br>
-        
-    <div class="member-box">
+<div class="team-container">
+    <div class="team-member">
         <img src="./assets/img/members/Foto1.jpg" class="member-photo">
         <div class="member-info">
             <p><h4>李寻欢</h4></p>
@@ -110,8 +69,7 @@ HUG Future工作组现由来自中国、美国、德国、比利时、荷兰以�
             <p><a href="https://www.buffalo.edu/cas/geography/graduate-program/meet-our-students/xunhuan-li.html" target="_blank">More >></a></p>
         </div>
     </div>
- <br>
-<div class="member-box">
+<div class="team-member">
         <img src="./assets/img/members/Foto2.jpg" class="member-photo">
         <div class="member-info">
             <p><h4>覃小菲</h4></p>
@@ -119,8 +77,10 @@ HUG Future工作组现由来自中国、美国、德国、比利时、荷兰以�
             <p><a href="https://www.bu.edu/earth/profiles/xiaofei-qin/" target="_blank">More >></a></p>
         </div>
     </div>
+</div>
 <br>
-<div class="member-box">
+<div class="team-container">
+    <div class="team-member">
         <img src="./assets/img/members/Foto3.jpg" class="member-photo">
         <div class="member-info">
             <p><h4>鲍文楷</h4></p>
@@ -128,8 +88,7 @@ HUG Future工作组现由来自中国、美国、德国、比利时、荷兰以�
             <p><a href="https://www.geographie.uni-muenchen.de/department/fiona_eng/personen/index.php?personen_details=1&user_id=438" target="_blank">More >></a></p>
         </div>
     </div>
-<br>
-<div class="member-box">
+<div class="team-member">
         <img src="./assets/img/members/Foto4.jpg" class="member-photo">
         <div class="member-info">
             <p><h4>鲁嘉颐</h4></p>
@@ -137,8 +96,10 @@ HUG Future工作组现由来自中国、美国、德国、比利时、荷兰以�
             <p><a href="https://soc.kuleuven.be/io/english/staff/00159288" target="_blank">More >></a></p>
         </div>
     </div>
+</div>
 <br>
-<div class="member-box">
+<div class="team-container">
+    <div class="team-member">
         <img src="./assets/img/members/Foto5.jpg" class="member-photo">
         <div class="member-info">
             <p><h4>冯文翰</h4></p>
@@ -146,8 +107,7 @@ HUG Future工作组现由来自中国、美国、德国、比利时、荷兰以�
             <p><a href="https://www.geographie.uni-muenchen.de/department/fiona/personen/index.php?personen_details=1&user_id=419" target="_blank">More >></a></p>
         </div>
     </div>
-<br>
-<div class="member-box">
+<div class="team-member">
         <img src="./assets/img/members/Foto6.jpg" class="member-photo">
         <div class="member-info">
             <p><h4>​​​​郭越</h4></p>
@@ -155,8 +115,10 @@ HUG Future工作组现由来自中国、美国、德国、比利时、荷兰以�
             <p><a href="https://www.researchgate.net/profile/Yue-Guo-27" target="_blank">More >></a></p>
         </div>
     </div>
+</div>
 <br>
-<div class="member-box">
+<div class="team-container">
+    <div class="team-member">
         <img src="./assets/img/members/Foto7.jpg" class="member-photo">
         <div class="member-info">
             <p><h4>​​​​杨航</h4></p>
@@ -164,8 +126,7 @@ HUG Future工作组现由来自中国、美国、德国、比利时、荷兰以�
             <p><a href="https://research.vu.nl/en/persons/hang-yang" target="_blank">More >></a></p>
         </div>
     </div>
-<br>
-<div class="member-box">
+<div class="team-member">
         <img src="./assets/img/members/Foto8.jpg" class="member-photo">
         <div class="member-info">
             <p><h4>​​​​​​张耿豪</h4></p>
@@ -173,7 +134,8 @@ HUG Future工作组现由来自中国、美国、德国、比利时、荷兰以�
             <p><a href="https://research-information.bris.ac.uk/en/persons/genghao-zhang" target="_blank">More >></a></p>
         </div>
     </div>
-
+</div>
+<br>
 <h2>工作组</h2>
 <div class="team-container">
     <div class="team-member">
