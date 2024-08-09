@@ -51,9 +51,9 @@ date : 02-01-2024
     <div class="project-box">
         <p><strong>Prof.1：</strong>该教授xxx</p>
         <p><strong>Prof.2：</strong>该教授xxx</p>
-        <p><strong>Prof.3：</strong>该教授xxx</p>
+        <p><strong>Prof.3：</strong>该教授xxx</p><div>
 
-    <h>    
+    <hr>    
 
     <h2 id="院系2">🏫2. <a href="院系主页链接" target="_blank">院系2</a></h2>
     <p><strong>介绍：</strong>该学院xxx</p>
