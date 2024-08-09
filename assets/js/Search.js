@@ -1,5 +1,3 @@
-<script src="https://unpkg.com/lunr-languages/lunr.zh.js"></script>
-
  (function (sj) {
     "use strict";
 
