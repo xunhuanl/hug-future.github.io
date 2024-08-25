@@ -87,5 +87,4 @@ date : 01-01-2024
 
 </body>
 </html>
-![image](https://github.com/user-attachments/assets/0fb05c86-c92e-4932-9110-88660b27aae1)
 
