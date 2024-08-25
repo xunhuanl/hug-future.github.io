@@ -28,6 +28,7 @@ date : 01-01-2024
     <h3 id="主要教授与研究方向">🧐1.3 <a href=" https://geography.berkeley.edu/people/faculty" target="_blank">主要教授与研究方向</a></h3>
   
     <div class="project-box">
+         <h3 id="主要教授与研究方向"> <a href=" https://geography.berkeley.edu/people/faculty" target="_blank">主要教授与研究方向</a></h3>
         <p><strong> Tianna Bruno：</strong> Environmental justice, Black environmental geographies, critical physical geography, political ecology, Black spatial and ecological relationships, dendrochronology, environmental records.</p>
         <p><strong> Jeffrey Q. Chambers：</strong> Biogeography and the biosphere; forests and climate change; vegetation dynamics and remote sensing; the Anthropocene.</p>
         <p><strong> Sharad Chari：</strong>Geography as history of the present and as earthly/oceanic writing, Marxist critique of political economy, critical theory in the Global South, racial/sexual capitalism, the agrarian question, labor, the Black radical tradition, biopolitics, oceanic studies, photography, South Asia, South Africa, and the African-Indian Ocean.</p>
