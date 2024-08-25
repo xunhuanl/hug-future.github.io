@@ -11,7 +11,7 @@ date : 01-01-2024
     <link rel="stylesheet" href="/assets/css/Template_CSS.css">
 </head>
 <body>
-    <h3>旧金山市/加利福尼亚州，美国</h3>
+    <h3>旧金山市，加利福尼亚州，美国</h3>
 
     <h2 id=" Geography ">🏫1. <a href=" https://geography.berkeley.edu/" target="_blank">Geography</a></h2>
     <p><strong>介绍：</strong> For more than a century, Berkeley Geography has been a leading center of scholarship about earth's landscapes and human relationships to the environment. Berkeley Geography has five main research areas: critical environments, earth system science, geospatial representation, political economies, and racial geographies.</p>
