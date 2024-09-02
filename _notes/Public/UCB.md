@@ -1,5 +1,5 @@
 ---
-title : University of California, Berkeley (UCB)，加州大学伯克利分校
+title : 加州大学伯克利分校，University of California, Berkeley (UCB)
 feed: show
 date : 09-01-2024
 ---
@@ -18,13 +18,15 @@ date : 09-01-2024
 
 <h3 id="博士项目">🎓1.1 <a href=" https://geography.berkeley.edu/academics/graduate-studies " target="_blank">博士项目</a></h3>
 
-    <h4 id=" Geography ">1.1.1 <a href=" https://geography.berkeley.edu/academics/graduate-studies " target="_blank"> Geography </a></h4>
+    <h4 id=" 地理学博士 ">1.1.1 <a href=" https://geography.berkeley.edu/academics/graduate-studies " target="_blank"> 地理学博士</a></h4>
     <p><strong>介绍：</strong> 该项目分为三个主要领域：全球发展与政治经济学、地球系统科学、地理空间表示与分析。在这些领域内，涵盖了广泛的教师研究兴趣，如政治生态学、经济地理学、文化地理学、后殖民研究、城市研究、种族与性别地理学、气候学、地貌学、遥感与地理信息系统（GIS）。教师成员还具有广泛的地区专业知识，包括非洲、南亚和东亚、北极、佛罗里达大沼泽地和密西西比三角洲、巴西、加勒比地区和拉丁美洲。虽然教师各自有自己的研究议程和教学专长，并且经常与学生合作，但我们相信学生应该走出自己的路。我们期望学生广泛阅读，培养必要的研究技能，并撰写精心构思的论文和学位论文。许多学生在此过程中也会发表他们的研究成果。伯克利地理系为未来的学者和大学教师以及那些进入政府、非政府组织和咨询行业的专业人士提供最高质量的研究生培训。 </p>
     <p><strong>学位、学制和学费：</strong>博士, 5年</p>
     <p><strong>申请截止时间：</strong>2023年12月4日（申请截止日期每年变更，请查询官网）</p>
     <p><strong>入学要求：</strong> GRE：地球系统科学方向：可选；人文地理学方向：不需要。申请材料包括：目的陈述、个人经历陈述、成绩单、TOEFL成绩、三封学术推荐信。写作样本是可选项，非必需。简历（C.V.）也是可选项，但推荐提交。 </p>
-    <p><strong>课程链接：</strong><a href=" https://geography.berkeley.edu/academics/graduate-studies " target="_blank">链接</a></p>
+<p><strong>课程链接：</strong><a href=" https://geography.berkeley.edu/academics/graduate-studies " target="_blank">链接</a></p>
 
+    <br>
+    <br>
     <div class="project-box">
         <h3 id="主要教授与研究方向"><a href=" https://geography.berkeley.edu/people/faculty" target="_blank">主要教授与研究方向</a></h3>
         <p><strong> Tianna Bruno：</strong> 环境正义、黑人环境地理学、批判性自然地理学、政治生态学、黑人空间与生态关系、年轮学、环境记录。</p>
@@ -48,11 +50,10 @@ date : 09-01-2024
     <p><strong>申请截止时间：</strong>2023年12月4日（申请截止日期每年变更，请查询官网）</p>
     <p><strong>入学要求：</strong>三封推荐信；研究陈述；个人与多样性陈述；托福成绩；不需要GRE；GPA计算。</p>
     <p><strong>课程链接：</strong><a href=" https://ourenvironment.berkeley.edu/graduate-programs/degrees/the-phd-program " target="_blank">链接</a></p>
-
-    <br>
-    <hr>
     
-    <div class="project-box">
+    <br>
+    <br>
+       <div class="project-box">
        <h3 id="主要教授与研究方向"><a href="https://ourenvironment.berkeley.edu/people/faculty-specialists" target="_blank">主要教授与研究方向</a></h3>
         <p><strong> Justin Brashares：</strong>野生动物生态学、保护与社会经济学。</p>
         <p><strong> Van Butsic：</strong>土地系统科学、保护、环境经济学与政策、耦合人类与自然系统、GIS应用。</p>
@@ -77,7 +78,9 @@ date : 09-01-2024
         <p><strong> Scott L. Stephens：</strong>野火科学、火生态学、森林生态学、森林政策、森林管理。</p>
         <p><strong> Sunaura Taylor：</strong>残疾研究/残疾理论、能力主义、动物研究/伦理学、多物种正义、环境人文、生态女性主义、环境正义。</p>
     </div>
-    
+<hr>
+    <br>
+
 
   <h2 id="城市与区域规划系">🏫3 <a href=" https://ced.berkeley.edu/city " target="_blank">城市与区域规划系</a></h2>
     <p><strong>介绍：</strong>加州大学伯克利分校城市与区域规划系的使命是通过教学、研究和服务创造知识和参与，改善社区、城市和大都会地区的公平性、经济和环境。我们的目标是设计和创建可持续、负担得起、宜居且人人都能享受的城市、基础设施和公共服务。我们相信，规划学术界有着特殊的责任，始终关注社会正义、公平和伦理；教授和研究公共参与、集体决策和倡导的手段；并着重于改革制度、城市治理、政策和规划实践，以实现这些目标。</p>
@@ -100,7 +103,8 @@ date : 09-01-2024
     <p><strong>入学要求：</strong>目的陈述；个人经历陈述；三封推荐信；托福90分/雅思7.0分；不需要GRE；成绩单；GPA；创意作品集；近期发表的作品、报告或写作样本；简历或个人履历。</p>
     <p><strong>课程链接：</strong><a href=" https://ced.berkeley.edu/city/degrees-admissions/master-of-city-planning " target="_blank">链接</a></p>
 
-   
+    <br>
+    <br>
     <div class="project-box">
        <h3 id="主要教授与研究方向"><a href="https://ourenvironment.berkeley.edu/people/faculty-specialists" target="_blank">主要教授与研究方向</a></h3>
         <p><strong> Daniel G. Chatman：</strong>土地利用与发展政策；公共交通服务；美国移民的出行模式与居住选择。</p>
