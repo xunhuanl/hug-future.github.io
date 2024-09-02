@@ -26,7 +26,6 @@ date : 09-01-2024
 <p><strong>课程链接：</strong><a href=" https://geography.berkeley.edu/academics/graduate-studies " target="_blank">链接</a></p>
 
     <br>
-    <br>
     <div class="project-box">
         <h3 id="主要教授与研究方向"><a href=" https://geography.berkeley.edu/people/faculty" target="_blank">主要教授与研究方向</a></h3>
         <p><strong> Tianna Bruno：</strong> 环境正义、黑人环境地理学、批判性自然地理学、政治生态学、黑人空间与生态关系、年轮学、环境记录。</p>
@@ -37,7 +36,7 @@ date : 09-01-2024
         <p><strong> Jake Kosek：</strong> 自然/科学/帝国，种族与殖民主义，批判性的自然历史，科学技术研究，环境政治，后殖民自然，政治/社会理论，政治经济学，种族资本主义，政治生态学与生物/死亡政治。</p>
     </div>
     <br>
-    <hr>
+    <br>
 
     <h2 id="环境科学、政策与管理系">🏫2 <a href=" https://ourenvironment.berkeley.edu/" target="_blank">环境科学、政策与管理系</a></h2>
     <p><strong>介绍：</strong>环境科学、政策与管理系是一个跨学科的项目，认识到当前挑战的紧迫性以及可能引领变革的巨大机遇。我们的教职团队在气候科学、生物多样性、环境政策、土地利用和社区拓展方面屡获殊荣——这一切都源于我们对环境未来的共同关注。在ESPM系，我们努力作为校园环境研究和问题的门户。伯克利大学秉承“知识为公众服务”的原则，而我们的系则建立在这一承诺之上。我们提供了一系列令人兴奋的本科专业，为对生物学、环境科学、环境政策以及健康专业准备感兴趣的学生提供多样的职业选择。我们备受推崇的研究生项目一贯作为进入研究、教学和公共推广等令人兴奋的职业生涯的门户。</p>
@@ -51,7 +50,6 @@ date : 09-01-2024
     <p><strong>入学要求：</strong>三封推荐信；研究陈述；个人与多样性陈述；托福成绩；不需要GRE；GPA计算。</p>
     <p><strong>课程链接：</strong><a href=" https://ourenvironment.berkeley.edu/graduate-programs/degrees/the-phd-program " target="_blank">链接</a></p>
     
-    <br>
     <br>
        <div class="project-box">
        <h3 id="主要教授与研究方向"><a href="https://ourenvironment.berkeley.edu/people/faculty-specialists" target="_blank">主要教授与研究方向</a></h3>
@@ -78,7 +76,7 @@ date : 09-01-2024
         <p><strong> Scott L. Stephens：</strong>野火科学、火生态学、森林生态学、森林政策、森林管理。</p>
         <p><strong> Sunaura Taylor：</strong>残疾研究/残疾理论、能力主义、动物研究/伦理学、多物种正义、环境人文、生态女性主义、环境正义。</p>
     </div>
-<hr>
+<br>
     <br>
 
 
@@ -103,7 +101,6 @@ date : 09-01-2024
     <p><strong>入学要求：</strong>目的陈述；个人经历陈述；三封推荐信；托福90分/雅思7.0分；不需要GRE；成绩单；GPA；创意作品集；近期发表的作品、报告或写作样本；简历或个人履历。</p>
     <p><strong>课程链接：</strong><a href=" https://ced.berkeley.edu/city/degrees-admissions/master-of-city-planning " target="_blank">链接</a></p>
 
-    <br>
     <br>
     <div class="project-box">
        <h3 id="主要教授与研究方向"><a href="https://ourenvironment.berkeley.edu/people/faculty-specialists" target="_blank">主要教授与研究方向</a></h3>
