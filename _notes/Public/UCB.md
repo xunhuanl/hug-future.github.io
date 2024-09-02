@@ -1,4 +1,4 @@
----
+![image](https://github.com/user-attachments/assets/6f43070b-dc88-4389-97d5-b298db6975da)---
 title : 加州大学伯克利分校，University of California, Berkeley (UCB)
 feed: show
 date : 09-01-2024
@@ -7,7 +7,7 @@ date : 09-01-2024
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <title> University of California, Berkeley (UCB)，加州大学伯克利分校</title>
+    <title> 加州大学伯克利分校，University of California, Berkeley (UCB)</title>
     <link rel="stylesheet" href="/assets/css/Template_CSS.css">
 </head>
 <body>
@@ -117,6 +117,44 @@ date : 09-01-2024
         <p><strong> Justin Hosbey：</strong>种族主义的文化与政治经济学、黑人生态学、种族资本主义、数字与空间人文学。</p>
         <p><strong> Zachary Lamb：</strong>城市空间政治、生态设计以及对环境危害的差异性脆弱性，特别是与气候变化相关的危害。</p>
 <p><strong> Elizabeth Macdonald：</strong>城市设计；城市形态史；街道与公共空间；城市设计与可持续性。</p>
+        <p><strong> Carolina Reid：</strong>住房、社区发展、城市贫困与不平等、社区再投资法、信贷获取与房屋所有权。</p>
+        <p><strong> Daniel Rodríguez：</strong>交通政策与规划以及环境规划与健康城市。</p>
+        </div>
+<br>
+    <br>
+
+
+  <h2 id="其他人文社科院系1">🏫4 <a href=" https://ced.berkeley.edu/city " target="_blank">其他人文社科院系1</a></h2>
+
+    <div class="project-box">
+       <h3 id="主要教授与研究方向"><a href="https://ourenvironment.berkeley.edu/people/faculty-specialists" target="_blank">主要教授与研究方向</a></h3>
+        <p><strong> Daniel G. Chatman：</strong>土地利用与发展政策；公共交通服务；美国移民的出行模式与居住选择。</p>
+        <p><strong> Charisma Acey：</strong>美国和发展中国家的可持续城市化；环境正义；环境行为与治理；水和卫生基础设施；食品系统规划与粮食安全；减贫与基本服务获取的政治经济学；社会公平与参与式决策；公众参与GIS与空间分析。</p>
+        <p><strong> Carolina Reid：</strong>住房、社区发展、城市贫困与不平等、社区再投资法、信贷获取与房屋所有权。</p>
+        <p><strong> Daniel Rodríguez：</strong>交通政策与规划以及环境规划与健康城市。</p>
+        </div>
+<br>
+    <br>
+
+
+  <h2 id="其他人文社科院系2">🏫5 <a href=" https://ced.berkeley.edu/city " target="_blank">其他人文社科院系2</a></h2>
+
+    <div class="project-box">
+       <h3 id="主要教授与研究方向"><a href="https://ourenvironment.berkeley.edu/people/faculty-specialists" target="_blank">主要教授与研究方向</a></h3>
+        <p><strong> Daniel G. Chatman：</strong>土地利用与发展政策；公共交通服务；美国移民的出行模式与居住选择。</p>
+        <p><strong> Charisma Acey：</strong>美国和发展中国家的可持续城市化；环境正义；环境行为与治理；水和卫生基础设施；食品系统规划与粮食安全；减贫与基本服务获取的政治经济学；社会公平与参与式决策；公众参与GIS与空间分析。</p>
+        <p><strong> Carolina Reid：</strong>住房、社区发展、城市贫困与不平等、社区再投资法、信贷获取与房屋所有权。</p>
+        <p><strong> Daniel Rodríguez：</strong>交通政策与规划以及环境规划与健康城市。</p>
+        </div>
+<br>
+    <br>
+
+  <h2 id="其他人文社科院系3">🏫6 <a href=" https://ced.berkeley.edu/city " target="_blank">其他人文社科院系3</a></h2>
+
+    <div class="project-box">
+       <h3 id="主要教授与研究方向"><a href="https://ourenvironment.berkeley.edu/people/faculty-specialists" target="_blank">主要教授与研究方向</a></h3>
+        <p><strong> Daniel G. Chatman：</strong>土地利用与发展政策；公共交通服务；美国移民的出行模式与居住选择。</p>
+        <p><strong> Charisma Acey：</strong>美国和发展中国家的可持续城市化；环境正义；环境行为与治理；水和卫生基础设施；食品系统规划与粮食安全；减贫与基本服务获取的政治经济学；社会公平与参与式决策；公众参与GIS与空间分析。</p>
         <p><strong> Carolina Reid：</strong>住房、社区发展、城市贫困与不平等、社区再投资法、信贷获取与房屋所有权。</p>
         <p><strong> Daniel Rodríguez：</strong>交通政策与规划以及环境规划与健康城市。</p>
         </div>
