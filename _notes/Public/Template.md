@@ -8,7 +8,7 @@ date : 01-01-2024
 <head>
     <meta charset="UTF-8">
     <title>中文名，英文名（例如，加利福尼亚大学伯克利分校，University of California, Berkeley (UCB). 此括号内备注需删去）</title>
-    <link rel="stylesheet" href="/assets/css/Template_CSS.css">
+    <link rel="stylesheet" href="/assets/css/CSS.css">
 </head>
 <body>
     <h3>xxx市，xx州，国家</h3>
