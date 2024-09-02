@@ -48,6 +48,9 @@ date : 09-01-2024
     <p><strong>申请截止时间：</strong>2023年12月4日（申请截止日期每年变更，请查询官网）</p>
     <p><strong>入学要求：</strong>三封推荐信；研究陈述；个人与多样性陈述；托福成绩；不需要GRE；GPA计算。</p>
     <p><strong>课程链接：</strong><a href=" https://ourenvironment.berkeley.edu/graduate-programs/degrees/the-phd-program " target="_blank">链接</a></p>
+
+    <br>
+    <hr>
     
     <div class="project-box">
        <h3 id="主要教授与研究方向"><a href="https://ourenvironment.berkeley.edu/people/faculty-specialists" target="_blank">主要教授与研究方向</a></h3>
@@ -74,8 +77,7 @@ date : 09-01-2024
         <p><strong> Scott L. Stephens：</strong>野火科学、火生态学、森林生态学、森林政策、森林管理。</p>
         <p><strong> Sunaura Taylor：</strong>残疾研究/残疾理论、能力主义、动物研究/伦理学、多物种正义、环境人文、生态女性主义、环境正义。</p>
     </div>
-    <br>
-    <hr>
+    
 
   <h2 id="城市与区域规划系">🏫3 <a href=" https://ced.berkeley.edu/city " target="_blank">城市与区域规划系</a></h2>
     <p><strong>介绍：</strong>加州大学伯克利分校城市与区域规划系的使命是通过教学、研究和服务创造知识和参与，改善社区、城市和大都会地区的公平性、经济和环境。我们的目标是设计和创建可持续、负担得起、宜居且人人都能享受的城市、基础设施和公共服务。我们相信，规划学术界有着特殊的责任，始终关注社会正义、公平和伦理；教授和研究公共参与、集体决策和倡导的手段；并着重于改革制度、城市治理、政策和规划实践，以实现这些目标。</p>
