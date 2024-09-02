@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6f43070b-dc88-4389-97d5-b298db6975da)---
+---
 title : 加州大学伯克利分校，University of California, Berkeley (UCB)
 feed: show
 date : 09-01-2024
