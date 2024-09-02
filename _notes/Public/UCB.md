@@ -8,7 +8,7 @@ date : 09-01-2024
 <head>
     <meta charset="UTF-8">
     <title> 加州大学伯克利分校，University of California, Berkeley (UCB)</title>
-    <link rel="stylesheet" href="/assets/css/Template_CSS.css">
+    <link rel="stylesheet" href="/assets/css/CSS.css">
 </head>
 <body>
     <h3>旧金山市，加利福尼亚州，美国</h3>
